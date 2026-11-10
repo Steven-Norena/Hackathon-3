@@ -34,7 +34,7 @@ export default function App() {
             <Route path="/incidents" element={gate('incidents:read', <IncidentsPage />, true)} />
             <Route path="/incidents/new" element={gate('incidents:create', <IncidentNew />, true)} />
             <Route path="/estado" element={<Estado />} />
-          </Layout>
+          </Route>
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
