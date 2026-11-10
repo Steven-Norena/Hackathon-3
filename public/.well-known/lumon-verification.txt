@@ -1,0 +1,1 @@
+PENDIENTE: reemplazar por el token de POST /integrations/deploy/challenge (solo texto plano)
